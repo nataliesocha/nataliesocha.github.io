@@ -56,7 +56,13 @@ h1 {
 	font-weight:bold;
 	color:black;
 }
-
+h3 {
+	font-family:Helvetica;
+	text-transform:uppercase;
+	font-size:25px;
+	font-weight:ital;
+	color:black;
+}
 /* END RESET */
 
 
