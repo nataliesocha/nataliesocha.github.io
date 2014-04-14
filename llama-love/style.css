@@ -33,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family:helvetica;
 }
 ol, ul {
 	list-style: none;
@@ -53,4 +54,36 @@ table {
 
 /* END RESET */
 
+#main-content {
+    margin:0 auto;
+    margin-top:50px;
+    width:960px;
+}
 
+#main-content article {
+    float:left;
+    position:relative;
+    padding-right:70px;
+}
+
+#main-content img {
+    float:left;
+    width:200px;
+    padding-right:16px;
+    padding-bottom:20px;
+}
+
+#main-content h1 {
+    font-size:25px;
+    font-weight:bolder;
+}
+
+#main-content h2 {
+    font-size:14px;
+    color:gray;
+    padding-bottom:30px;
+}
+
+#main-content p {
+    width:400px;
+}

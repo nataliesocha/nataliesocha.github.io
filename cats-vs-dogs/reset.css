@@ -73,4 +73,50 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+#top-menu {
+	border-top:4px solid black;
+	border-bottom:4px solid black;
+}
 
+#content {
+	position:absolute;
+	width:100%;
+	border-bottom:4px solid black;
+}
+
+#dog {
+	float:left;
+	margin-right:30px;
+}
+
+#dog img {
+	width:400px;
+}
+
+#dog h1 {
+}
+
+#dog p {
+    width:400px;
+}
+
+#cat {
+	float:left;
+}
+
+#cat img {
+	width:400px;
+	height:304px;
+}
+
+#cat h1 {
+}
+
+#cat p {
+	width:400px;
+}
+
+#footer {
+	position:absolute;
+	bottom:0;
+}
